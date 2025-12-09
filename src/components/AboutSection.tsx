@@ -5,11 +5,11 @@ const AboutSection = () => {
     <section className="py-20 md:py-24" id="sobre">
       <div className="container mx-auto px-5">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative">
+          <div className="relative pl-6 pb-6">
             <img 
               src="https://images.unsplash.com/photo-1598653222000-6b7b7a552625?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" 
               alt="Estúdio de Gravação"
-              className="w-full rounded-lg"
+              className="w-full rounded-lg relative z-10"
               style={{
                 boxShadow: '-20px 20px 0 hsl(var(--secondary)), -20px 20px 0 2px hsl(var(--primary))'
               }}
